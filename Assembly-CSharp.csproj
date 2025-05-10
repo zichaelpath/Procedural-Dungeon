@@ -59,7 +59,7 @@
     <UnityVersion>6000.0.43f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Users\zacha\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.1.1\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Users\zacha\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.1.2\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.43f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.43f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.43f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
@@ -67,21 +67,31 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Utilities\TextureArrayContainer.cs" />
     <Compile Include="Assets\Scripts\RoomLevelLayoutConfiguration.cs" />
+    <Compile Include="Assets\Scripts\SharedLevelData.cs" />
     <Compile Include="Assets\Scripts\Utilities\Array2DWrapper.cs" />
     <Compile Include="Assets\Scripts\Level.cs" />
     <Compile Include="Assets\Scripts\Utilities\MonoBehaviorExtensionMethods.cs" />
+    <Compile Include="Assets\Scripts\MarchingSquares.cs" />
     <Compile Include="Assets\Scripts\Hallway.cs" />
+    <Compile Include="Assets\Scripts\Tileset.cs" />
     <Compile Include="Assets\Scripts\Utilities\RectIntExtension.cs" />
+    <Compile Include="Assets\Scripts\Utilities\FollowCamera.cs" />
     <Compile Include="Assets\Scripts\Utilities\RandomExtension.cs" />
+    <Compile Include="Assets\Scripts\LevelBuilder.cs" />
     <Compile Include="Assets\Scripts\Utilities\Texture2DExtension.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\Utilities\TileType.cs" />
     <Compile Include="Assets\Scripts\Room.cs" />
     <Compile Include="Assets\Scripts\Utilities\PriorityQueue.cs" />
     <Compile Include="Assets\Scripts\HallwayDirection.cs" />
+    <Compile Include="Assets\Scripts\LevelDecorator\RoomDecorator.cs" />
+    <Compile Include="Assets\Scripts\RoomTemplate.cs" />
+    <Compile Include="Assets\Scripts\TileVariant.cs" />
     <Compile Include="Assets\Scripts\LayoutGeneratorRooms.cs" />
     <Compile Include="Assets\Scripts\Utilities\RectExtension.cs" />
+    <Compile Include="Assets\Scripts\ILevel.cs" />
     <Compile Include="Assets\Scripts\Utilities\EnumFlagsAttribute.cs" />
+    <Compile Include="Assets\Scripts\TextureBasedLevel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
